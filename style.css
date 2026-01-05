@@ -335,7 +335,7 @@ body {
 /* EDUCATION, CERTIFICATIONS, LEADERSHIP - 3 frames */
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -346,7 +346,7 @@ body {
   border-radius: 12px;
   border: 3px solid var(--primary);
   transition: all 0.3s ease;
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .info-frame:hover {
@@ -466,3 +466,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
